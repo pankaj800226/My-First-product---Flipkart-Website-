@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+
+.search button {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.slider {
+  width: 80vw;
+  /* height: 350px; */
+  margin: 12px auto;
+  overflow: hidden;
+}
+.slider img {
+  /* transition: 0.5s ease-in; */
+}
+
+.slider img:hover {
+  filter: none(1);
+  transform: scale(1.03);
+}
+
+.card {
+  max-width: 91vw;
+  margin: 37px auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.card-item img:hover {
+  filter: none(1);
+  transform: scale(1.03);
+}
+.card-item a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: red;
+  margin-top: 6px;
+}
+
+.card h2 {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+.pankaj{
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+.clone img{
+    max-width: 27%;
+}
+.clone{
+    display: flex;
+justify-content: center;
+gap: 28px;
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.icon img{
+    height: 20px;
+    float: right;
+    margin-left: 29px;
+}
